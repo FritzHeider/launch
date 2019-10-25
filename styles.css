@@ -1,5 +1,4 @@
 
-
 .navbar {
   padding 1rem;
   background-color: blue;
@@ -10,19 +9,17 @@
   color: white;
 }
 
-/* styles.css */
-
 .hero-background-img {
-  background-image: url("fabio-hanashiro-yp4qpKCUdIE-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  position: relative;
+  background: rgba(0, 0, 0, 0.3); /* If our image is bright, we can tone it down with this darker overlay */
+  padding-top:200px;
+  padding-bottom:200px;
 }
 
 .hero-background-img:after {
   content: "";
   position: absolute;
-  background-image: url("fabio-hanashiro-yp4qpKCUdIE-unsplash.jpg");
+  background-image: url("nikolin-nikolla-IETzdugrypk-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
